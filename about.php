@@ -11,6 +11,7 @@
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
   <title> Finexo </title>
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -37,7 +38,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               Finexo
             </span>
@@ -50,16 +51,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="index.php">Home </a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="about.php"> About <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="why.html">Why Us</a>
+                <a class="nav-link" href="service.php">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.php">Why Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
@@ -76,83 +77,40 @@
     </header>
   </div>
 
-  <section class="service_section layout_padding">
-    <div class="service_container">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          <h2>
-            Our <span>Services</span>
-          </h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-md-4 ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Currency Wallet
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Security Storage
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Expert Support
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
-                </p>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
           </div>
         </div>
-        <div class="btn-box">
-          <a href="">
-            View All
-          </a>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              We Are Finexo
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+              the middle of text. All
+            </p>
+            <p>
+              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -218,16 +176,16 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
+              <a class="active" href="index.php">
                 Home
               </a>
-              <a class="" href="about.html">
+              <a class="" href="about.php">
                 About
               </a>
-              <a class="" href="service.html">
+              <a class="" href="service.php">
                 Services
               </a>
-              <a class="" href="why.html">
+              <a class="" href="why.php">
                 Why Us
               </a>
             </div>
@@ -245,15 +203,6 @@
           </form>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
     </div>
   </section>
 

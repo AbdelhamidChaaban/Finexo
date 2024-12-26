@@ -38,7 +38,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               Finexo
             </span>
@@ -51,19 +51,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home </a>
+                <a class="nav-link" href="index.php">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.php"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="service.php">Services</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="why.html">Why Us <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="why.php">Why Us <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                <a class="nav-link" href="login.php"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
               </li>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
@@ -211,16 +211,16 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
+              <a class="active" href="index.php">
                 Home
               </a>
-              <a class="" href="about.html">
+              <a class="" href="about.php">
                 About
               </a>
-              <a class="" href="service.html">
+              <a class="" href="service.php">
                 Services
               </a>
-              <a class="" href="why.html">
+              <a class="" href="why.php">
                 Why Us
               </a>
             </div>
@@ -238,15 +238,6 @@
           </form>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
     </div>
   </section>
 
